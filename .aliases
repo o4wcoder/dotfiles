@@ -1,0 +1,2 @@
+# Cleans control characters from all files
+alias cleanpatch='find . -name "*.patch" -type f -exec dos2unix {} \;'
